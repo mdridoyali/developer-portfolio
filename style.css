@@ -1,6 +1,6 @@
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 0px 0px 0px 0px;
     margin-top: 5px;
 }
 body {
@@ -20,6 +20,11 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 10px 25px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.btn-primary:hover{
+    background: #000;
 }
 .section-title{
     color: #181818;
@@ -120,6 +125,84 @@ main{
 .about-info{
     text-align: center;
 }
+
+/* skills related style */
 #what-i-do-description{
     padding: 30px 150px;
 }
+.section-title{
+    margin-bottom: 50px;
+}
+.skills-container{
+    display: flex;
+}
+.skill{
+    padding:30px 20px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: 1px 1px 10px ;
+    line-height: 25px;
+
+}
+.skill:hover{
+    box-shadow: 1px 1px 20px ;
+}
+.skill-description{
+    color: #474747;
+}
+.skill-title{
+    margin: 10px 0px;
+}
+
+
+/* Resume section style */
+
+.resume-column-title{
+    color: #242424;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.resume-container hr{
+    margin: 20px 0px;
+}
+.resume-item-description, .resume-item-institute{
+    color: #454545;
+    margin-bottom: 10px;
+}
+.resume-item-title{
+    color: #303030;
+    /* margin-top: 25px; */
+}
+.download-cv{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
