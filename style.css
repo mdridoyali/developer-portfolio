@@ -184,7 +184,39 @@ main{
     text-align: center;
 }
 
+/* footer style statrs */
 
+footer{
+    display: flex;
+    background: #fef6f0;
+    margin-top: 100px;
+    padding: 130px 170px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+
+}
+.section-description{
+    margin-bottom: 30px;
+}
+.sicial-links-anc img{
+    margin-right: 30px;
+    padding: 10px;
+    width: 40px;
+}
+.sicial-links-anc img:hover{
+    background-color: white;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 10px 25px;
+    border: none;
+    background: #fff;
+    width: 100%;
+    
+}
 
 
 
